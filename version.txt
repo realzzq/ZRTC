@@ -1,2 +1,0 @@
-glog:x64-linux@0.7.0#1
-gtest:x64-linux@1.14.0#1

@@ -1,4 +1,7 @@
-.idea
+.idea/
+.cache/
 cmake-build-debug/*
-MyBuild/*
-build/*
+MyBuild/
+build/
+vcpkg_installed/*
+test/**

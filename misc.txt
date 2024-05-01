@@ -1,0 +1,5 @@
+glog:x64-linux@0.7.0#1
+gtest:x64-linux@1.14.0#1
+
+
+/usr/bin/cmake --no-warn-unused-cli -DCMAKE_BUILD_TYPE:STRING=Debug -DCMAKE_EXPORT_COMPILE_COMMANDS:BOOL=TRUE -DCMAKE_C_COMPILER:FILEPATH=/usr/bin/gcc -DCMAKE_CXX_COMPILER:FILEPATH=/usr/bin/g++ -S/root/_PROJECT/MyRTC/ZRTC -B/root/_PROJECT/MyRTC/ZRTC/build -G "Unix Makefiles" -DCMAKE_TOOLCHAIN_FILE=/home/zdq/APP/vcpkg/scripts/buildsystems/vcpkg.cmake

@@ -1,0 +1,12 @@
+stages:
+    - build
+
+ build:
+  stage: build
+  image: ubuntu:latest
+  script:
+    - mkdir build
+    - cd build
+    - cmake ..
+    - make
+    - ./helloworld

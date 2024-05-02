@@ -32,7 +32,7 @@ jobs:
       # - name: 安装cmake
       #   run: apt install cmake
       - name: 使用cmake编译
-        run: /usr/bin/cmake --no-warn-unused-cli -DCMAKE_BUILD_TYPE:STRING=Debug -DCMAKE_EXPORT_COMPILE_COMMANDS:BOOL=TRUE -DCMAKE_C_COMPILER:FILEPATH=/usr/bin/clang -DCMAKE_CXX_COMPILER:FILEPATH=/usr/bin/clang++ -S/root/_PROJECT/MyRTC/ZRTC -B/root/_PROJECT/MyRTC/ZRTC/build -G "Unix Makefiles"
+        run: cmake --no-warn-unused-cli -DCMAKE_BUILD_TYPE:STRING=Debug -DCMAKE_EXPORT_COMPILE_COMMANDS:BOOL=TRUE -DCMAKE_C_COMPILER:FILEPATH=/usr/bin/clang -DCMAKE_CXX_COMPILER:FILEPATH=/usr/bin/clang++ -S/root/_PROJECT/MyRTC/ZRTC -B/root/_PROJECT/MyRTC/ZRTC/build -G "Unix Makefiles"
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
         run: |

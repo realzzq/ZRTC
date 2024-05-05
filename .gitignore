@@ -1,7 +1,7 @@
 .idea/
 .cache/
+log/
 cmake-build-debug/*
 MyBuild/
 build/
 vcpkg_installed/*
-test/**

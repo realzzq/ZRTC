@@ -1,12 +1,33 @@
+# stages:
+#     - build
+
+#  build:
+#   stage: build
+#   image: ubuntu:latest
+#   script:
+#     - mkdir build
+#     - cd build
+#     - cmake ..
+#     - make
+#     - ./helloworld
 stages:
-    - build
+ - build
+ - deploy
 
  build:
   stage: build
-  image: ubuntu:latest
+  tags:
+   - build
+  only: 
+   - home
   script:
-    - mkdir build
-    - cd build
-    - cmake ..
-    - make
-    - ./helloworld
+   - echo "ZZQ build"
+
+ deploy:
+  stage: deploy
+  tags:
+   - deploy
+  only: 
+   - home
+  script:
+   - echo "ZZQ deploy"

@@ -6,8 +6,8 @@
 #include <glog/logging.h>
 int main(int argc, char** argv) {
     // printf("asd");
-    google::InitGoogleLogging(argv[0]);
-    LOG(ERROR) << "zzq";
-    google::ShutdownGoogleLogging();
+    // google::InitGoogleLogging(argv[0]);
+    // LOG(ERROR) << "zzq";
+    // google::ShutdownGoogleLogging();
     return 0;
 }

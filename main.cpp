@@ -3,7 +3,7 @@
 //
 
 #include <iostream>
-#include <glog/logging.h>
+// #include <glog/logging.h>
 int main(int argc, char** argv) {
     // printf("asd");
     // google::InitGoogleLogging(argv[0]);

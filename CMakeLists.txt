@@ -8,8 +8,6 @@ file(GLOB FILES
 )
 message("test: ${FILES}")
 add_executable(ZRTC main.cpp ${FILES})
-find_package(glog CONFIG REQUIRED)
-  target_link_libraries(ZRTC PRIVATE glog::glog)
 
 add_subdirectory(test)
 

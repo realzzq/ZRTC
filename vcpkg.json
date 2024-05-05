@@ -3,6 +3,6 @@
     "version": "0.15.2",
     "dependencies": [
         "gtest",
-        "glog"
+        "spdlog"
     ]
   }
